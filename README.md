@@ -13,11 +13,11 @@ Yes I have implemented a couple of other PID for speed control.
 
 # Reflection
 ## Describe the effect each of the P, I, D components had in your implementation.
-P is used to control position, is the most important parameter.
+* P is used to control position, is the most important parameter.
 
-D is used to avoid oscilations, when direction change is fast it decreases the change speed. D param is of opposit sign than P.
+* D is used to avoid oscilations, when direction change is fast it decreases the change speed. D param is of opposit sign than P.
 
-I is uses to avoud bias from target, I don't use it in this project. It would be usefull for very long straight trayectories.
+* I is used to avoud bias from target, I don't use it in this project. It would be usefull for very long straight trajectories.
 
 ## Describe how the final hyperparameters were chosen.
 I at first started with a P param founding 0.21 as a good value. The nex image shows the car a second before going off the track.
