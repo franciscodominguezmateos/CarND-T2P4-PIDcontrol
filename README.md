@@ -17,7 +17,7 @@ Yes I have implemented a couple of other PID for speed control.
 
 * D is used to avoid oscilations, when direction change is fast it decreases the change speed. D param is of opposit sign than P.
 
-* I is used to avoud bias from target, I don't use it in this project. It would be usefull for very long straight trajectories.
+* I is used to avoid bias from target, I don't use it in this project. It would be usefull for very long straight trajectories.
 
 ## Describe how the final hyperparameters were chosen.
 I at first started with a P param founding 0.21 as a good value. The nex image shows the car a second before going off the track.
