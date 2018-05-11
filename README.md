@@ -12,9 +12,11 @@ Yet it compiles fine
 Yes I have implemented a couple of other PID for speed control.
 
 # Reflection
-# Describe the effect each of the P, I, D components had in your implementation.
+## Describe the effect each of the P, I, D components had in your implementation.
 P is used to control position, is the most important parameter.
+
 D is used to avoid oscilations, when direction change is fast it decreases the change speed. D param is of opposit sign than P.
+
 I is uses to avoud bias from target, I don't use it in this project. It would be usefull for very long straight trayectories.
 
 ## Describe how the final hyperparameters were chosen.
