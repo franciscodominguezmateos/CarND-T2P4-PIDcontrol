@@ -18,13 +18,16 @@ D is used to avoid oscilations, when direction change is fast it decreases the c
 I is uses to avoud bias from target, I don't use it in this project. It would be usefull for very long straight trayectories.
 
 ## Describe how the final hyperparameters were chosen.
-I at first started with a P param founding 0.21 as a good value. The nex image shows the car a second before go off the track.
+I at first started with a P param founding 0.21 as a good value. The nex image shows the car a second before going off the track.
+
 ![using only P parameter](images/CarND-T2P4-OnlyP.gif)
 
 Once P not too bad, I tried D param, starting with 0.5, then 1.0 and eventualy 1.5. The next image shows the car working fine, but with oscilations and params: P=0.21, D=1.0.
+
 ![using only P parameter](images/CarND-T2P4-PDbad.gif)
 
 In the end I fine tuned parameters to P=0.21 and D=1.5 and it works fine and without oscilations as it can be seen in the next image.
+
 ![using only P parameter](images/CarND-T2P4-Ok.gif)
 
 
